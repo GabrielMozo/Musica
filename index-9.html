@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CYBER MUSIC — 20+ Music Posts</title>
+<meta name="description" content="CYBER MUSIC: plataforma editorial musical com mais de 20 publicações, música internacional e africana, imagens/capas reais e players oficiais.">
+<meta name="theme-color" content="#05070d">
+<style>
+:root{--bg:#04060b;--panel:#0a1020;--panel2:#0d1628;--line:#1a3560;--cyan:#00e5ff;--purple:#9c5cff;--pink:#ff3d81;--text:#f4f8ff;--muted:#91a4c1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 75% -5%,#15366c 0,transparent 34%),var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input{font:inherit}
+header{position:sticky;top:0;z-index:50;background:rgba(4,6,11,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{max-width:1280px;margin:auto;display:flex;align-items:center;gap:24px;padding:15px 20px}.logo{font-weight:950;font-size:21px;letter-spacing:2px;white-space:nowrap}.logo i{color:var(--cyan);font-style:normal}nav{display:flex;gap:17px;flex:1}nav a{font-size:12px;color:#c6d3e8}nav a:hover{color:var(--cyan)}#search{width:205px;background:#0a1324;border:1px solid var(--line);border-radius:8px;color:white;padding:9px 12px}
+.ticker{height:34px;overflow:hidden;white-space:nowrap;border-bottom:1px solid #10223e;background:#060a12;color:#75eaff;font-size:11px;letter-spacing:1.4px}.ticker span{display:inline-block;padding:8px 0;animation:roll 27s linear infinite}@keyframes roll{to{transform:translateX(-50%)}}
+main{max-width:1280px;margin:auto;padding:24px 20px}.hero{min-height:420px;border:1px solid #24538a;border-radius:19px;padding:45px;display:flex;align-items:end;background:linear-gradient(90deg,#02050df5,#02050d88),url('https://commons.wikimedia.org/wiki/Special:FilePath/Lady%20Gaga%20%26%20Bruno%20Mars%20%E2%80%93%20Die%20With%20A%20Smile%20%28cover%29.jpg') center/cover;box-shadow:0 0 55px #006dff22}.hero h1{font-size:clamp(42px,7vw,80px);line-height:.92;margin:8px 0}.hero p{max-width:700px;color:#c2d0e4}.eyebrow,.tag{font-size:11px;color:var(--cyan);font-weight:850;letter-spacing:1.6px}.btn{display:inline-block;border:1px solid var(--cyan);border-radius:7px;padding:9px 13px;margin:5px 4px 0 0;background:transparent;color:white;cursor:pointer;font-size:12px}.primary{background:var(--cyan);color:#021017;font-weight:900}
+section{margin-top:55px}.head{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid var(--line);margin-bottom:18px}h2{margin:0 0 9px;font-size:28px}.muted{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.post{background:linear-gradient(150deg,#0b1425,#070b13);border:1px solid #17345e;border-radius:13px;overflow:hidden;transition:.2s}.post:hover{transform:translateY(-3px);border-color:#2a9fd2;box-shadow:0 10px 35px #0008}.cover{aspect-ratio:1/1;background:#07101e}.cover iframe{width:100%;height:100%;border:0}.body{padding:15px}.body h3{margin:8px 0 3px;font-size:18px}.body p{min-height:62px}.source{font-size:10px;color:#6f86a9;margin-top:10px}
+.news{background:linear-gradient(150deg,#0b1425,#070b13);border:1px solid #17345e;border-radius:13px;padding:20px}.news h3{margin:8px 0}.number{font-size:35px;color:var(--cyan);font-weight:900}
+.modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:100;padding:20px}.modal.show{display:flex}.modalbox{width:min(850px,100%);max-height:92vh;overflow:auto;background:#08101d;border:1px solid #28618f;border-radius:16px;padding:18px;box-shadow:0 0 60px #00e5ff22}.modalbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.close{background:none;border:1px solid var(--line);color:white;border-radius:7px;padding:6px 10px;cursor:pointer}#modalFrame{width:100%;height:380px;border:0;border-radius:11px}footer{margin-top:70px;padding:45px 20px;text-align:center;border-top:1px solid var(--line);color:var(--muted)}
+.links{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:18px}
+@media(max-width:1050px){.grid{grid-template-columns:repeat(3,1fr)}nav{display:none}}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:27px}#search{width:150px}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}main{padding:14px}.hero{min-height:470px}.hero h1{font-size:45px}#modalFrame{height:300px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="nav"><a class="logo" href="#">CYBER<i>MUSIC</i></a>
+<nav><a href="#posts">POSTS</a><a href="#charts">CHARTS</a><a href="#news">NEWS</a><a href="#artists">ARTISTS</a><a href="#about">ABOUT</a></nav>
+<input id="search" placeholder="Pesquisar artista ou música..." aria-label="Pesquisar"></div></header>
+<div class="ticker"><span>● 20+ MUSIC POSTS　 ● OFFICIAL PLAYERS　 ● INTERNATIONAL　 ● AFRICA　 ● AFROBEATS　 ● AMAPIANO　 ● POP　 ● GLOBAL MUSIC NEWS　 ● REAL SOURCES　 ● 20+ MUSIC POSTS　 ● OFFICIAL PLAYERS　</span></div>
+<main>
+<section class="hero"><div><div class="eyebrow">CYBER MUSIC / EDITORIAL PLATFORM</div><h1>REAL MUSIC.<br>REAL SOURCES.</h1><p>Mais de 20 publicações musicais com capas reais provenientes de conteúdos musicais, textos editoriais próprios e acesso direto aos players oficiais.</p><a class="btn primary" href="#posts">VER PUBLICAÇÕES</a><a class="btn" href="#news">MUSIC NEWSROOM</a></div></section>
+
+<section id="posts"><div class="head"><h2>20+ MUSIC POSTS</h2><span class="muted">Clique em qualquer publicação para abrir e ouvir</span></div><div class="grid" id="postGrid"></div></section>
+
+<section id="charts"><div class="head"><h2>UK CHART — SNAPSHOT</h2><span class="muted">11–17 setembro 2026</span></div>
+<div class="grid">
+<article class="news"><div class="number">#1</div><h3>GREAT EXPECTATION</h3><b>Sienna Spiro</b><p class="muted">Official Singles Chart. A fonte oficial identifica a faixa em primeiro lugar, com pico #1 e 10 semanas no chart.</p><a class="btn" href="https://www.officialcharts.com/charts/singles-chart/" target="_blank">VER FONTE</a></article>
+<article class="news"><div class="number">#2</div><h3>CHOOSIN' TEXAS</h3><b>Ella Langley</b><p class="muted">Official Singles Chart. A faixa aparece em segundo lugar no período de referência.</p><a class="btn" href="https://www.officialcharts.com/charts/singles-chart/" target="_blank">VER FONTE</a></article>
+<article class="news"><div class="number">#3</div><h3>MOVIN' TO THE SUN</h3><b>HUGEL / IMAEL ANGEL / Ultra Naté</b><p class="muted">Official Singles Chart. A faixa ocupa a terceira posição no período de referência.</p><a class="btn" href="https://www.officialcharts.com/charts/singles-chart/" target="_blank">VER FONTE</a></article>
+<article class="news"><div class="number">#5</div><h3>REIN ME IN</h3><b>Sam Fender & Olivia Dean</b><p class="muted">A colaboração subiu para #5 no Official Singles Chart, depois de #7 na semana anterior.</p><a class="btn" href="https://www.officialcharts.com/charts/singles-chart/" target="_blank">VER FONTE</a></article>
+</div></section>
+
+<section id="news"><div class="head"><h2>MUSIC NEWSROOM</h2><span class="muted">Conteúdo editorial</span></div>
+<div class="grid">
+<article class="news"><div class="tag">NEW ALBUM</div><h3>Carly Rae Jepsen prepara “Day and Night”</h3><p class="muted">A artista prepara o seu nono álbum de estúdio, anunciado para 18 de setembro de 2026, segundo entrevista publicada em 14 de setembro.</p><a class="btn" href="https://www.theguardian.com/music/2026/sep/14/ive-never-been-more-terrified-carly-rae-jepsen-on-motherhood-stardom-and-her-horniest-album-ever" target="_blank">FONTE</a></article>
+<article class="news"><div class="tag">NEW MUSIC</div><h3>Pitchfork destaca dez novos álbuns</h3><p class="muted">A seleção de New Music Friday publicada em 11 de setembro reúne projetos de diferentes géneros e artistas.</p><a class="btn" href="https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-this-is-lorelei-alex-g-and-more" target="_blank">FONTE</a></article>
+<article class="news"><div class="tag">INDUSTRY</div><h3>IA e música entram numa nova fase</h3><p class="muted">A Suno anunciou novos modelos de geração musical desenvolvidos em parceria com Warner Music Group e BMG.</p><a class="btn" href="https://www.reuters.com/legal/litigation/suno-releases-new-ai-music-models-partnership-warner-music-bmg-2026-09-09/" target="_blank">FONTE</a></article>
+<article class="news"><div class="tag">CMA 2026</div><h3>Ella Langley lidera indicações</h3><p class="muted">A Associated Press informa que Ella Langley lidera as nomeações do CMA Awards 2026 com nove indicações.</p><a class="btn" href="https://apnews.com/article/536b61cd460deaa9c17cb98cedc56826" target="_blank">FONTE</a></article>
+</div></section>
+
+<section id="artists"><div class="head"><h2>FEATURED ARTISTS</h2><span class="muted">Perfis oficiais Spotify</span></div><div class="grid" id="artistGrid"></div></section>
+<section id="about"><div class="head"><h2>EDITORIAL STANDARD</h2></div><p class="muted">O CYBER MUSIC separa factos de análise editorial. Rankings apresentam sempre uma fonte e uma data de referência. A reprodução é feita por players oficiais; o website não hospeda ficheiros MP3 protegidos. Imagens e capas são fornecidas pelos serviços incorporados e respetivos detentores de direitos.</p></section>
+</main>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Detalhes da publicação"><div class="modalbox">
+<div class="modalbar"><div><div class="tag" id="modalTag"></div><h2 id="modalTitle" style="margin:4px 0"></h2><div class="muted" id="modalArtist"></div></div><button class="close" id="close">FECHAR</button></div>
+<iframe id="modalFrame" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Player oficial"></iframe>
+<p class="muted" id="modalText"></p><a id="modalOpen" class="btn primary" target="_blank" rel="noopener">ABRIR NO SPOTIFY</a>
+</div></div>
+
+<footer><div class="links"><a href="#posts">POSTS</a><a href="#charts">CHARTS</a><a href="#news">NEWS</a><a href="#artists">ARTISTS</a><a href="https://developer.spotify.com/documentation/embeds" target="_blank">SPOTIFY EMBEDS</a></div>© 2026 CYBER MUSIC · Plataforma editorial musical</footer>
+
+<script>
+const DATA=[["Die With A Smile", "Lady Gaga & Bruno Mars", "track", "78mE33YpoWqMQTwgUQRhyo", "Pop / International", "A colaboração entre Lady Gaga e Bruno Mars tornou-se um dos grandes encontros pop da década. O post leva diretamente ao player oficial do Spotify."], ["APT.", "ROSÉ & Bruno Mars", "track", "7B9kHzT3U0JT0z3cBD9qHz", "K-Pop / Pop", "ROSÉ e Bruno Mars juntaram referências do pop e do K-pop numa faixa construída para um refrão imediato e forte presença digital."], ["Espresso", "Sabrina Carpenter", "track", "0Cfx7PbOBxKlMzfv3jPZOi", "Pop", "Espresso consolidou a fase pop de Sabrina Carpenter e tornou-se uma das faixas mais reconhecíveis do seu repertório recente."], ["Beautiful Things", "Benson Boone", "track", "43hjTmrUdDicFD5S45L59P", "Pop", "Benson Boone combina interpretação vocal intensa e uma estrutura pop acessível numa faixa que ganhou enorme circulação internacional."], ["A Bar Song (Tipsy)", "Shaboozey", "track", "2FQrifJ1N335Ljm3TjTVVf", "Country / Hip-Hop", "Shaboozey cruza country, hip-hop e elementos de música popular americana numa faixa que alcançou enorme alcance internacional."], ["Rein Me In", "Sam Fender & Olivia Dean", "track", "6QIwDkInfXZpxdbPtHoZhi", "UK / Pop", "A colaboração de Sam Fender e Olivia Dean combina duas identidades vocais britânicas distintas. A faixa também aparece no Official Singles Chart britânico."], ["Choosin' Texas", "Ella Langley", "track", "7scFxt9VhL4FJwuPSfRlfN", "Country", "Ella Langley levou o country contemporâneo a uma audiência ampla com Choosin' Texas, faixa do álbum Dandelion."], ["Material Lover", "Sienna Spiro", "track", "5tna8Mlyg1jc7KgoatZlPs", "Alternative Pop", "Sienna Spiro ganhou destaque no mercado britânico e liderou o Official Singles Chart de 11–17 de setembro de 2026 com GREAT EXPECTATION."], ["Training Season", "Dua Lipa", "track", "5sf04YglEmMt5s3YrY1tFa", "Pop / Dance", "Dua Lipa usa produção dance-pop e uma linha vocal direta para construir uma faixa orientada para a pista e para o rádio."], ["greedy", "Tate McRae", "track", "4kfSXPK13aXkLzuz02hCSC", "Pop / Dance", "Tate McRae combina pop e dança com uma performance vocal marcada por ritmo e atitude."], ["Calm Down", "Rema & Selena Gomez", "track", "1s7oOCT8vauUh01PbJD6ps", "Afrobeats / Pop", "Calm Down aproximou o Afrobeats de uma audiência pop global através da colaboração entre Rema e Selena Gomez."], ["Water", "Tyla", "track", "4qriJT9HAvHG8k4QxFATVD", "Amapiano / Pop", "Tyla levou elementos do amapiano para o pop global, com Water como um dos títulos centrais da sua ascensão internacional."], ["love nwantiti", "CKay", "track", "1gwag7cB5TKg8LZWdceAEB", "Afrobeats", "A faixa de CKay tornou-se um dos exemplos mais fortes da capacidade do Afrobeats de atravessar fronteiras através das plataformas digitais."], ["Good Luck, Babe!", "Chappell Roan", "track", "0wCSNsLg1j2HNWq3Hf4yEk", "Pop", "Chappell Roan construiu uma identidade pop própria, combinando melodias teatrais, produção contemporânea e forte presença visual."], ["Houdini", "Dua Lipa", "track", "7lxCNrTMjfMp5hNwcYf8tR", "Pop / Dance", "Houdini apresenta a estética dance-pop característica de Dua Lipa e integra o repertório internacional que marcou a era Radical Optimism."], ["Rema — Artist Desk", "Rema", "artist", "46pWGuE3dSwY3bMMXGBvVS", "Afrobeats / Nigeria", "Perfil editorial baseado no perfil oficial do artista no Spotify. A página oficial apresenta a discografia e os lançamentos disponíveis no serviço."], ["Tyla — Artist Desk", "Tyla", "artist", "3SozjO3Lat463tQICI9LcE", "Amapiano / South Africa", "Perfil editorial dedicado a Tyla, artista sul-africana associada ao pop, R&B e amapiano. O perfil oficial apresenta a sua discografia."], ["Burna Boy — Artist Desk", "Burna Boy", "artist", "3wcj11K77LjEY1PkEazffa", "Afrobeats / Nigeria", "Burna Boy é um dos nomes africanos de maior alcance internacional. O seu perfil oficial reúne discografia e lançamentos."], ["Bruno Mars — Artist Desk", "Bruno Mars", "artist", "0du5cEVh5yTK9QJze8zA0C", "Pop / USA", "O perfil oficial de Bruno Mars reúne sucessos históricos e lançamentos recentes, incluindo material de 2026."], ["Lady Gaga — Artist Desk", "Lady Gaga", "artist", "1HY2Jd0NmPuamShAr6KMms", "Pop / USA", "Lady Gaga mantém uma das discografias mais influentes do pop contemporâneo. O perfil oficial apresenta os seus álbuns e singles."]];
+const postGrid=document.getElementById('postGrid');
+const artistGrid=document.getElementById('artistGrid');
+const modal=document.getElementById('modal');
+const frame=document.getElementById('modalFrame');
+const title=document.getElementById('modalTitle');
+const artist=document.getElementById('modalArtist');
+const text=document.getElementById('modalText');
+const tag=document.getElementById('modalTag');
+const open=document.getElementById('modalOpen');
+
+function spotifyEmbed(type,id){
+ return type==='artist'
+ ? `https://open.spotify.com/embed/artist/${id}?utm_source=generator`
+ : `https://open.spotify.com/embed/track/${id}?utm_source=generator`;
+}
+function spotifyUrl(type,id){
+ return type==='artist' ? `https://open.spotify.com/artist/${id}` : `https://open.spotify.com/track/${id}`;
+}
+function openPost(p){
+ tag.textContent=p[4]; title.textContent=p[0]; artist.textContent=p[1]; text.textContent=p[5];
+ frame.src=spotifyEmbed(p[2],p[3]); open.href=spotifyUrl(p[2],p[3]); modal.classList.add('show');
+}
+DATA.forEach((p,i)=>{
+ const card=document.createElement('article'); card.className='post';
+ card.innerHTML=`<div class="cover"><iframe loading="lazy" title="${p[0]}" src="${spotifyEmbed(p[2],p[3])}" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+ <div class="body"><div class="tag">${p[4]}</div><h3>${p[0]}</h3><b>${p[1]}</b><p class="muted">${p[5]}</p><button class="btn details">ABRIR PUBLICAÇÃO</button></div>`;
+ card.querySelector('.details').onclick=()=>openPost(p); postGrid.appendChild(card);
+});
+DATA.filter(p=>p[2]==='artist').forEach(p=>{
+ const card=document.createElement('article'); card.className='post';
+ card.innerHTML=`<div class="cover"><iframe loading="lazy" title="${p[1]}" src="${spotifyEmbed('artist',p[3])}" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+ <div class="body"><div class="tag">${p[4]}</div><h3>${p[0]}</h3><p class="muted">${p[5]}</p><button class="btn details">ABRIR PERFIL</button></div>`;
+ card.querySelector('.details').onclick=()=>openPost(p); artistGrid.appendChild(card);
+});
+document.getElementById('close').onclick=()=>{modal.classList.remove('show');frame.src='';};
+modal.addEventListener('click',e=>{if(e.target===modal){modal.classList.remove('show');frame.src='';}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){modal.classList.remove('show');frame.src='';}});
+document.getElementById('search').addEventListener('input',e=>{
+ const q=e.target.value.toLowerCase().trim();
+ document.querySelectorAll('.post').forEach(el=>el.style.display=(!q||el.textContent.toLowerCase().includes(q))?'':'none');
+});
+</script>
+</body></html>
